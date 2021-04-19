@@ -1,0 +1,13 @@
+1. String a dan b di cek selisihnya, jika tidak berselisih 1 maka hasilnya "Wah, tidak bisa :("
+2. Jika selisihnya 1, maka cek isi dari string a dengan b, apabila terdapat ketidaksamaan lebih dari 2, maka hasilnya "Wah, tidak bisa :("
+3. Jika tidak ada satupun yang salah, maka hasilnya "Tentu saja bisa!"
+
+perhatikan kedua string a dan b berikut :
+a -> K O M P U T E R
+b -> K O M U T E R
+
+Mari kita cek mulai dari -> a[0] dengan b[0].
+Nanti pada perbandingan a[3] dengan b[3], pasti keduanya berbeda kan?
+Maka kita hanya perlu skip 1 indeks dari string a dan melanjutkan perbandingan tersebut. 
+Apabila terjadi hal yang sama 2 kali, maka kita bisa langsung menghentikan perulangan dan mengeluarkan output "Wah, tidak bisa :("
+
