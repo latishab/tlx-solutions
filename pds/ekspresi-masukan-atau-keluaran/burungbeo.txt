@@ -1,0 +1,8 @@
+Dalam persoalan ini kita tidak bisa input string seperti biasa.
+
+seperti -> cin >> s;
+
+karena cin >> s hanya bisa menginput karakter saja, bukan whitespace (space).
+
+maka dari itu, jika anda menggunakan std string, maka bisa menggunakan :
+"getline(cin, s);"
